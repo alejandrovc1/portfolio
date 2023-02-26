@@ -1,0 +1,18 @@
+{
+    "profile": {
+        "rol": "Desarrollador Full Stack",
+        "description": "Soy un desarrollador Web Full Stack apasionado por la tecnología, luego de estudiar por más de 2 años ciencias de la computación, me interesé en el desarrollo web. Después de terminar un Bootcamp intensivo, me convertí en desarrollador web full stack. <br><br> Soy una persona que le gusta alcanzar metas, trabajar en equipo y siempre aprender cosas nuevas! :)"
+    },
+    "experience": {
+        "title": "Experiencia",
+        "aniosExperiencia": "Años de experiencia",
+        "experienciaHenry": "Participación en 2 proyectos en grupos de 7 personas aplicando la metodología SCRUM, utilicé distintos lenguajes de programación tales como JavaScript y TypeScript, en la parte front end tecnologías como React, Redux, CSS y librerías como MaterialUI y SweetAlert, en el backend, Node con Express y bases de datos NO-SQL de mongoDB, adicionalmente usé librerias y herramientas para distintas funcionalidades, passportJs para autenticación, Stripe para crear una pasarela de pagos, y herramientas para deploy en render y vercel, todos estos proyectos, utilizando GIT para su versionado.",
+        "first-job-dates": "Junio 2022 - Diciembre 2022",
+        "first-job-title": "Desarrollador Full Stack",
+        "first-job-description": "Descripcion de mi primer trabajo"
+    },
+    "projects": {
+        "first-project-description": "CoinTracker es una aplicación en la que podrás seguir el precio de cualquier criptomoneda, tener una billetera de criptos simulados, realizar cambios de moneda y crear  alertas personalizadas cuando una moneda alcanza un valor esperado, implementa un panel de administrador y permite registrarse como usuario.",
+        "second-project-description": "Health4u es un proyecto de servicios médicos que permite adquirir citas con especialistas, te permite realizar búsquedas, filtrar, hacer pagos, registrarte con google o correo personalizar tu perfil, entre otros."
+    }
+}

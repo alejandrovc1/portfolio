@@ -1,0 +1,17 @@
+{
+    "profile": {
+        "rol": "Full Stack Web Developer",
+        "description": "I am a Full Stack Web developer passionate about technology, after studying for more than 2 years computer science, I became interested in web development. After finishing an intensive Bootcamp, I became a full stack web developer. <br> <br> I am a person who likes to reach goals, work in a team, and always learn new things! :)"
+    },
+    "experience": {
+        "title": "Experience",
+        "aniosExperiencia": "Years of experience",
+        "first-job-dates": "Junio 2022 - Diciembre 2022",
+        "first-job-title": "Desarrollador Full Stack",
+        "first-job-description": "Descripcion de mi primer trabajo"
+    },
+    "projects": {
+        "first-project-description": "CoinTracker es una aplicación en la que podrás seguir el precio de cualquier criptomoneda, tener una billetera de criptos simulados, realizar cambios de moneda y crear  alertas personalizadas cuando una moneda alcanza un valor esperado, implementa un panel de administrador y permite registrarse como usuario.",
+        "second-project-description": "Health4u es un proyecto de servicios médicos que permite adquirir citas con especialistas, te permite realizar búsquedas, filtrar, hacer pagos, registrarte con google o correo personalizar tu perfil, entre otros."
+    }
+}

@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
   <link rel="stylesheet" href="css/styles.css" />
   <title>Portfolio</title>
 </head>
@@ -62,9 +63,9 @@
             </a>
           </div>
           <p class="card__text" data-section="profile" data-value="description">
-            Soy un desarrollador apasionado por la tecnología, luego de estudiar por más de 2 años
+            Soy un desarrollador Web Full Stack apasionado por la tecnología, luego de estudiar por más de 2 años
             ciencias de la computación, me interesé en el desarrollo web. Después de terminar un Bootcamp intensivo, me
-            convertí en desarrollador web full stack. <br> Soy una persona que le gusta alcanzar metas, trabajar en
+            convertí en desarrollador web full stack. <br> <br>Soy una persona que le gusta alcanzar metas, trabajar en
             equipo y siempre aprender cosas nuevas! :)
           </p>
         </div>
@@ -82,8 +83,10 @@
             </h3>
             <p class="experience__description" data-section="experience" data-value="first-job-description">
               Realicé en 2 proyectos aplicando la metodología SCRUM, utilicé distintos
-              lenguajes de programación tales como JavaScript y TypeScript, en la parte front end tecnologías como
-              React, Redux, CSS, librerías MaterialUI y SweetAlert; en el backend, NodeJS con Express y bases de
+              lenguajes de programación tales como JavaScript y TypeScript.<br><br> En la parte front end tecnologías
+              como
+              React, Redux, CSS, librerías MaterialUI y SweetAlert. <br> <br>En el backend, NodeJS con Express y bases
+              de
               datos NO-SQL de mongoDB, adicionalmente usé PassportJs para autenticación, Stripe y mercadoPago para crear
               pasarelas de pagos, y herramientas para deployado de proyectos en
               render y vercel, todos estos proyectos, utilizando GIT para su versionado.</p>
@@ -115,11 +118,11 @@
 
           <div class="skills__item">
             <p class="skills__tech">HTML</p>
-            <div class="skills__bar skills__bar--80"></div>
+            <div class="skills__bar skills__bar--100"></div>
           </div>
           <div class="skills__item">
             <p class="skills__tech">CSS</p>
-            <div class="skills__bar skills__bar--60"></div>
+            <div class="skills__bar skills__bar--70"></div>
           </div>
           <div class="skills__item">
             <p class="skills__tech">JavaScript</p>
@@ -127,51 +130,75 @@
           </div>
           <div class="skills__item">
             <p class="skills__tech">TypeScript</p>
-            <div class="skills__bar skills__bar--70"></div>
+            <div class="skills__bar skills__bar--30"></div>
+          </div>
+          <div class="skills__item">
+            <p class="skills__tech">React</p>
+            <div class="skills__bar skills__bar--40"></div>
           </div>
           <div class="skills__item">
             <p class="skills__tech">Redux</p>
-            <div class="skills__bar skills__bar--70"></div>
+            <div class="skills__bar skills__bar--40"></div>
           </div>
 
         </div>
       </articule>
 
       <articule class="card">
-        <h2 class="card__title">Backend</h2>
+        <h2 class="card__title">Back End</h2>
         <div class="skills">
+          <div class="skills__header">
+            <span class="skills__start-level">0</span>
+            <span class="skills__start-level">3</span>
+          </div>
 
           <div class="skills__item">
+            <p class="skills__tech">Java</p>
+            <div class="skills__bar skills__bar--60"></div>
+          </div>
+          <div class="skills__item">
             <p class="skills__tech">Node</p>
-            <div class="skills__bar skills__bar--80"></div>
+            <div class="skills__bar skills__bar--60"></div>
           </div>
           <div class="skills__item">
             <p class="skills__tech">Express</p>
-            <div class="skills__bar skills__bar--70"></div>
+            <div class="skills__bar skills__bar--60"></div>
           </div>
           <div class="skills__item">
             <p class="skills__tech">MongoDB</p>
-            <div class="skills__bar skills__bar--90"></div>
+            <div class="skills__bar skills__bar--40"></div>
           </div>
-
+          <div class="skills__item">
+            <p class="skills__tech">NodeMailer</p>
+            <div class="skills__bar skills__bar--30"></div>
+          </div>
         </div>
       </articule>
 
       <articule class="card">
         <h2 class="card__title">Extras</h2>
         <div class="skills">
+          <div class="skills__header">
+            <span class="skills__start-level">0</span>
+            <span class="skills__start-level">3</span>
+          </div>
 
           <div class="skills__item">
             <p class="skills__tech">Linux</p>
             <div class="skills__bar skills__bar--60"></div>
           </div>
           <div class="skills__item">
-            <p class="skills__tech" data-section="experience" data-value="autenticacion">Autenticacion de usuarios</p>
-            <div class="skills__bar skills__bar--80"></div>
+            <p class="skills__tech" data-section="experience" data-value="autenticacion">Autenticacion<br> de usuarios
+            </p>
+            <div class="skills__bar skills__bar--30"></div>
           </div>
           <div class="skills__item">
-            <p class="skills__tech" data-section="experience" data-value="Pagos">Pasarela de pagos</p>
-            <div class="skills__bar skills__bar--80"></div>
+            <p class="skills__tech" data-section="experience" data-value="Pagos">Pasarela<br> de pagos</p>
+            <div class="skills__bar skills__bar--30"></div>
+          </div>
+          <div class="skills__item">
+            <p class="skills__tech">GIT</p>
+            <div class="skills__bar skills__bar--40"></div>
           </div>
 
         </div>
@@ -179,54 +206,94 @@
 
       <article class="card card--project">
         <div class="card__image-container">
-          <img src="assets/images/project.jpg" alt="Landing page" class="card__image">
+          <img src="assets/images/cointracker.png" alt="Landing page" class="card__image">
         </div>
         <div class="project">
           <div class="project__tags">
-            <span class="project__tag">#HTML</span>
+            <span class="project__tag">#TypeScript</span>
             <span class="project__tag">#CSS</span>
-            <span class="project__tag">#JavaScript</span>
-            <span class="project__tag">#Responsive</span>
+            <span class="project__tag">#React</span>
+            <span class="project__tag">#Node</span>
+            <span class="project__tag">#MongoDB</span>
+            <span class="project__tag">#GIT</span>
+            <span class="project__tag">#Stripe</span>
+            <span class="project__tag">#PassportJS</span>
           </div>
           <h2 class="card__title">CoinTracker</h2>
-          <p class="card__text" data-section="projects" data-value="first-project-description">Health4u es un proyecto
-            de servicios médicos que permite adquirir citas con
-            especialistas, te permite
-            realizar búsquedas, filtrar, hacer pagos, registrarte con google o correo, personalizar tu perfil,
-            entre otros.</p>
+          <p class="card__text" data-section="projects" data-value="first-project-description">CoinTracker es una
+            aplicación en la que podrás seguir el precio de cualquier criptomoneda, tener una billetera de criptos
+            simulados, realizar cambios de moneda y crear alertas personalizadas cuando una moneda alcanza un valor
+            esperado, implementa un panel de administrador y permite registrarse como usuario.</p>
           <div class="buttons">
-            <a href="#" class="button button--primary">Demo</a>
-            <a href="#" class="button button--ghost">Code</a>
+            <a href="https://pf-03-cointracker.vercel.app/" target="_blank" class="button button--primary">Demo</a>
+            <a href="https://github.com/PF-03/CoinTracker" target="_blank" class="button button--ghost">Code</a>
           </div>
         </div>
       </article>
 
       <article class="card card--project">
         <div class="card__image-container">
-          <img src="assets/images/project.jpg" alt="Landing page" class="card__image">
+          <img src="assets/images/health4u.png" alt="Landing page" class="card__image">
         </div>
         <div class="project">
           <div class="project__tags">
             <span class="project__tag">#HTML</span>
             <span class="project__tag">#CSS</span>
             <span class="project__tag">#JavaScript</span>
-            <span class="project__tag">#Responsive</span>
+            <span class="project__tag">#React</span>
+            <br>
+            <span class="project__tag">#Redux</span>
+            <span class="project__tag">#MercadoPago</span>
+            <span class="project__tag">#JWT</span>
+            <span class="project__tag">#NodeMailer</span>
           </div>
           <h2 class="card__title">HEALTH 4U</h2>
           <p class="card__text" data-section="projects" data-value="second-project-description">Health4u es un proyecto
-            de servicios médicos que permite adquirir citas con
-            especialistas, te permite
-            realizar búsquedas, filtrar, hacer pagos, registrarte con google o correo, personalizar tu perfil,
-            entre otros.</p>
-
+            de servicios médicos que permite adquirir citas con especialistas, te permite realizar búsquedas, filtrar,
+            hacer pagos, registrarte con google o correo, personalizar tu perfil y calificar el servicio que obtuviste.
+          </p>
 
           <div class="buttons">
-            <a href="#" class="button button--primary">Demo</a>
-            <a href="#" class="button button--ghost">Code</a>
+            <a href="https://health4u.vercel.app/" target="_blank" class="button button--primary">Demo</a>
+            <a href="https://github.com/alejandrovc1/PF-HEALTH4U" target="_blank" class="button button--ghost">Code</a>
           </div>
         </div>
       </article>
 
+      <footer class="contact">
+        <div>
+          <br><br>
+          <h2 data-section="contactos" data-value="contacto">Contacto</h2>
+          <div>
+            <br>
+            <p data-section="contactos" data-value="SeeYouSoon">Espero conocerte pronto !</p>
+            <i class="fa-regular fa-mailbox-flag-up"></i>
+            <a rel="noreferrer" target="_blank" href="mailto:alejandrovc-@outlook.com" data-section="contactos"
+              data-value="sendEmail">Enviar
+              email</a>
+          </div>
+        </div>
+        <br><br><br>
+        <a rel="noreferrer" href="#top">
+          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+        </a>
+        <br><br><br>
+        <div class="iconos">
+          <a rel="noreferrer" href="https://www.linkedin.com/in/alejandro-villegas-correa-031a91221/" target="_blank">
+            <i class="fa fa-linkedin fa-inverse"></i>
+          </a>
+          <a rel="noreferrer" href="https://github.com/alejandrovc1" target="_blank">
+            <i class="fa fa-github fa-inverse"></i>
+          </a>
+        </div>
+
+        <hr />
+
+        <p data-section="contactos" data-value="developedBy">
+          2023 - Desarrollado por
+          <a rel="noreferrer" href="https://github.com/alejandrovc1" target="_blank">Alejandro Villegas</a>
+        </p>
+      </footer>
 
     </section>
   </main>

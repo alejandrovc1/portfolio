@@ -1,17 +1,25 @@
 {
     "profile": {
         "rol": "Full Stack Web Developer",
-        "description": "I am a Full Stack Web developer passionate about technology, after studying for more than 2 years computer science, I became interested in web development. After finishing an intensive Bootcamp, I became a full stack web developer. <br> <br> I am a person who likes to reach goals, work in a team, and always learn new things! :)"
+        "description": "I am a Full Stack Web Developer passionate about technology, after studying computer science for more than 2 years, I became interested in web development. After finishing an intensive Bootcamp, I became a full stack web developer. <br> <br> I am a person who likes to achieve goals, work in a team and always learn new things! :)"
     },
     "experience": {
         "title": "Experience",
         "aniosExperiencia": "Years of experience",
+        "autenticacion": "Users <br> authentication",
+        "Pagos": "Online <br>Payments",
         "first-job-dates": "Junio 2022 - Diciembre 2022",
-        "first-job-title": "Desarrollador Full Stack",
-        "first-job-description": "Descripcion de mi primer trabajo"
+        "first-job-title": "Full Stack Developer",
+        "first-job-description": "I did 2 projects applying the SCRUM methodology, I used different programming languages such as JavaScript and TypeScript.<br><br> In the Front End technologies like React, Redux, CSS, MaterialUI and SweetAlert libraries.<br> <br> In the Back End, NodeJS with Express and NO-SQL databases from mongoDB, additionally I used PassportJs for authentication, Stripe and MercadoPago to create payment gateways, and tools for deploying projects in render and vercel, all these projects, using GIT for versioning."
     },
     "projects": {
-        "first-project-description": "CoinTracker es una aplicación en la que podrás seguir el precio de cualquier criptomoneda, tener una billetera de criptos simulados, realizar cambios de moneda y crear  alertas personalizadas cuando una moneda alcanza un valor esperado, implementa un panel de administrador y permite registrarse como usuario.",
-        "second-project-description": "Health4u es un proyecto de servicios médicos que permite adquirir citas con especialistas, te permite realizar búsquedas, filtrar, hacer pagos, registrarte con google o correo personalizar tu perfil, entre otros."
+        "first-project-description": "CoinTracker is an application in which you can follow the price of any cryptocurrency, have a simulated crypto wallet, perform currency exchanges and create custom alerts when a coin reaches an expected value, implements an administrator panel and allows you to register as a user.",
+        "second-project-description": "Health4u is a medical services project that allows you to purchase appointments with specialists, search, filter, make payments, register with google or email, customize your profile and rate the service."
+    },
+    "contactos":{
+        "SeeYouSoon": "I hope to meet you soon!",
+        "contacto": "Contact",
+        "sendEmail":"Send email",
+        "developedBy": "2023 - Developed by <a rel='noreferrer' href='https://github.com/alejandrovc1' target='_blank' data-section='contactos' data-value='name'>Alejandro Villegas</a>"
     }
 }

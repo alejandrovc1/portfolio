@@ -79,6 +79,7 @@ body.dark {
 
 .flags__item {
     width: 30px;
+    cursor: pointer;
 }
 
 .flags__img {
@@ -191,13 +192,8 @@ body.dark {
         display: grid;
         grid-template-columns: min-content 1fr;
         grid-column: 1/-1;
+        height: 280px;
     }
-}
-
-.card--project {
-    display: grid;
-    grid-template-columns: min-content 1fr;
-    grid-column: 1 / -1;
 }
 
 .skills {
@@ -278,6 +274,10 @@ body.dark {
     --skill-bar-length: 90%;
 }
 
+.skills__bar--100::after {
+    --skill-bar-length: 100%;
+}
+
 .experience {
     display: flex;
     align-items: start;
@@ -330,17 +330,30 @@ body.dark {
 
 @media screen and (min-width: 760px) {
     .project__tags {
-        width: 325px;
+        width: 250px;
         font-size: 0.8rem;
     }
 }
 
+@media screen and (max-width: 760px) {
+    .project__tag {
+        padding: .4em .4em;
+        border-radius: var(--border-radius);
+        background-color: var(--primary-color);
+        color: var(--bg-color);
+        transition: var(--transition);
+        margin: 3px;
+        font-size: 0.73rem;
+    }
+}
+
 .project__tag {
-    padding: .4em .8em;
+    padding: .4em .4em;
     border-radius: var(--border-radius);
     background-color: var(--primary-color);
     color: var(--bg-color);
     transition: var(--transition);
+    margin: 3px;
 }
 
 .buttons {
@@ -387,4 +400,27 @@ body.dark {
     to {
         transform: translateX(var(--skill-bar-length));
     }
+}
+
+@media screen and (min-width: 760px) {
+    
+    .contact {
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+            margin-left: 280px;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    
+    .contact {
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+    }
+}
+
+.iconos{
+    font-size: 30px;
 }

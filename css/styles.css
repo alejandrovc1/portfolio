@@ -335,7 +335,7 @@ body.dark {
     }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 750px) {
     .project__tag {
         padding: .2em .2em;
         border-radius: var(--border-radius);
@@ -344,6 +344,22 @@ body.dark {
         transition: var(--transition);
         margin: 1px;
         font-size: 0.5rem;
+    }
+    .project__tags {
+        width: 20px;
+        font-size: 0.2rem;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .project__tag {
+        padding: .2em .2em;
+        border-radius: var(--border-radius);
+        background-color: var(--primary-color);
+        color: var(--bg-color);
+        transition: var(--transition);
+        margin: 1px;
+        font-size: 0.3rem;
     }
     .project__tags {
         width: 20px;

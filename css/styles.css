@@ -335,15 +335,19 @@ body.dark {
     }
 }
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 500px) {
     .project__tag {
-        padding: .4em .4em;
+        padding: .2em .2em;
         border-radius: var(--border-radius);
         background-color: var(--primary-color);
         color: var(--bg-color);
         transition: var(--transition);
-        margin: 3px;
-        font-size: 0.73rem;
+        margin: 1px;
+        font-size: 0.5rem;
+    }
+    .project__tags {
+        width: 20px;
+        font-size: 0.2rem;
     }
 }
 
